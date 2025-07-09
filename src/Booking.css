@@ -1,0 +1,60 @@
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.booking {
+   background: linear-gradient( #42b1a6, #c4e7a3);
+   animation: gradientBG 15s ease infinite;
+    height: 100dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-form {
+    background: rgba(53, 16, 16, 0.85);
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    max-width: 400px;
+    width: 100%;
+}
+
+.booking-form h2 {
+    margin-bottom: 24px;
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 12px;
+    background: #007b5e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.booking-form button:hover {
+    background: #005f46;
+}
