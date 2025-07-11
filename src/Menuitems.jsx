@@ -60,6 +60,16 @@ export default function Menuitems() {
     </div>
   </Link>
 ))}
+ <p>
+              Welcome to Grill Recipes, where every meal is a celebration of taste and tradition! 
+              Our restaurant is renowned for its vibrant flavors, cozy ambiance, and exceptional service
+              We use only the freshest ingredients, sourced locally, to craft dishes that delight your senses.<br />
+              Whether you crave classic Indian curries, sizzling starters, or refreshing beverages, our menu has something for everyone.<br />
+              Our chefs bring years of experience and passion to every plate, ensuring a memorable dining experience.<br />
+              Perfect for family gatherings, friendly get-togethers, or a quiet meal for two, Grill Recipes offers a warm and inviting atmosphere.<br />
+              From the moment you step in, you'll be greeted with a smile and treated like family.
+              Visit us and discover why Grill Recipes is the favorite dining destination in town!
+            </p>
       </div>
     </div>
   );

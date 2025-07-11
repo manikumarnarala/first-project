@@ -42,6 +42,15 @@ function Bookingtable() {
           <form onSubmit={handleSubmit} data-aos="flip-up">
             <input type='number' className='form-control' placeholder='Number Of Guests' required />
             <br />
+              {/* Branch selection */}
+            <select className='form-control' required style={{ marginBottom: '1rem' }}>
+              <option value="" disabled selected>Select Branch</option>
+              <option>Kakinada (AP)</option>
+              <option>Bhimavaram (AP)</option>
+              <option>Hyderabad (TS)</option>
+              <option>Karimnagar (TS)</option>
+            </select><br/>
+            {/* Number of guests with limit */}
             <select className='form-control' required>
               <option value="" disabled selected>Select Meal</option>
               <option>Breakfast</option>
